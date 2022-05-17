@@ -1,0 +1,67 @@
+footer{
+    display: grid;
+    
+    grid-template-columns: 50% 50%;
+
+    .foot1{
+        
+        background: rgba(9, 5, 1, 0.904);
+        h1{
+            @include title;
+            font-size: 2.4rem;
+            margin: 10px ;
+        }
+        p{
+            text-align: left;
+            font-family: $font3;
+            color: $color2;
+            margin: 10px;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+    }
+    .foot2{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        background: rgb(24, 19, 14);
+        p{
+            text-transform: uppercase;
+            color: $color2;
+            font-family: $font3;
+            margin: 10px;
+            padding: 10px;
+        }
+        input{
+            margin: 20px;
+            border: none;
+            background: rgb(24, 19, 14);
+            border: 1px solid $color4 ;
+            padding: 5px;
+            
+        }
+        .icones{
+            display: flex;
+        
+        .icon{
+            z-index: 101;
+            margin: 10px;
+            #image{
+                border: 1px solid $color1;
+                border-radius: 50px;
+                background: $color1;
+                transition: 1s ease;
+                margin: 2px;
+                width: 30px;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            
+            }
+         }
+    }
+
+}
