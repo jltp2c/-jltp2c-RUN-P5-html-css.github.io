@@ -45,7 +45,7 @@ background: $color1;
             
     }
     .img2{
-        background-image:url(/assets/img/store-01.jpg);
+        background-image:url(../img/store-01.jpg);
         background-position: bottom;
         background-size: cover;
         
@@ -58,7 +58,7 @@ position: relative;
         &::after{
             content:"";
             position: absolute;
-            background-image: url(/assets/img/bg-menu-01.jpg);
+            background-image: url(../img/bg-menu-01.jpg);
             background-size: cover/center;
             height: 500px;
             width: 100%;
@@ -499,7 +499,7 @@ position: relative;
 
     &::after{
         content:"";
-        background-image: url(/assets/img/gmap.jpg);
+        background-image: url(../img/gmap.jpg);
         background-position: center;
         position: absolute;
         left: 0;
